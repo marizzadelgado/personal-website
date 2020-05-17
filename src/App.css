@@ -14,10 +14,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #f7f7f7;
-	display: flex;
-  	overflow-x: auto;
-  	white-space: nowrap;
- 	padding: 10px;
+
 }
 
 heading {
@@ -39,6 +36,19 @@ App-logo {
 .logo { 
   text-align: center;
   display: block;
+  height: 70%;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 a {
@@ -81,15 +91,9 @@ a {
 
 h1, h2, p{
 	text-align: center;
-	font-weight: bold;
 }
 
 .highlights {
 	display: flex;
 	padding-top: 50px;
-}
-.funFacts {
-	margin-left: 16px;
-	margin-right: 16px;
-	font-size: 16px;
 }

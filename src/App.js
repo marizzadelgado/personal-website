@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Favicon from 'react-favicon';
-import './App.css';
+import './../src/App.css';
 import logo from './../src/images/logo.png';
 import ImageGallery from 'react-image-gallery';
 
@@ -130,14 +130,6 @@ class Slideshow extends React.Component {
 			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 			picture-in-picture" allowfullscreen></iframe>
 			
-			<div className= "thumbnails">
-				<img src={idewcare} alt="idewcare" height = "100" width= "100" />
-				<img src={fitbit} alt="fitbit" height = "100" width= "100" />
-				<img src={refinery29} alt="refinery29" height = "100" width= "100" />
-				<img src={loreal} alt="loreal" height = "100" width= "100" />
-				<img src={fenty} alt="fenty" height = "100" width= "100" />
-				<img src={drjart} alt="drjart" height = "100" width= "100" />
-  			</div>
 			</div>
 		);
 	}
