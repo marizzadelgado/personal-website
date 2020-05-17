@@ -1,11 +1,27 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+
 @font-face {
   font-family: 'Raleway';
-  src: local('Raleway'), url(./fonts/Raleway-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Raleway'),
+    local('Raleway-Regular'),
+    url(./fonts/Raleway-Regular.ttf) format('truetype');
 }
 
 .body {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 }
+
+.heading {
+  font-weight: 700;
+}
+.subheading {
+  font-weight: 400;
+}
+
 .App {
   text-align: center;
 }
@@ -37,8 +53,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #e08a8b;
 }
 
 @keyframes App-logo-spin {
@@ -61,16 +77,34 @@
 	float: right;
 }
 
-.linkedin, .facebook, .instagram, .youtube {
-	width: 40px;
-	margin: 20px;
-	border-radius: 4px;
+.socialMedia a{
+	display: inline-block;
+	padding-right: 10px;
 }
 
-h1, p{
+.slideshowContainer {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width : 60%;
+}
+.agencies {
+	text-align: center;
+	display-inline: block;
+	padding: 30px;
+}
+
+.agencies a {
+	text-align: center;
+	display-inline: block;
+	padding: 30px;
+}
+
+h1, h2, p{
 	text-align: center;
 }
 
 .highlights {
 	display: flex;
+	padding-top: 50px;
 }
