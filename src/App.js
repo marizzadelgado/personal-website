@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Favicon from 'react-favicon';
 import './App.css';
 import logo from './../src/images/logo.png';
 import ImageGallery from 'react-image-gallery';
@@ -11,7 +12,7 @@ import youtube from './../src/images/youtube.png';
 
 import stars from './../src/images/stars.png';
 import marilyn from './../src/images/marilyn.png';
-import industry from './../src/images/industry.jpg';
+import industry from './../src/images/industry.png';
 
 import highlights from './../src/images/highlights.jpg';
 
@@ -44,9 +45,9 @@ class Info extends React.Component {
 			
 			<div className = "bio">
 				Greetings! I’m Marizza Delgado, a fashion model represented in SF, LA, 
-				& NYC, and 3rd year Technology Information Management student at UC 
-				Santa Cruz. I’m currently a Marketing and Business Intelligence intern 
-				at Queenly. Come check us <a href="https://queenly.com/">out</a>!
+				& NYC, and an incoming senior at UC Santa Cruz studing Technology 
+				Information Management. I’m currently a Marketing and Business Intelligence 
+				intern at Queenly. Come check us <a href="https://queenly.com/">out</a>!
 			</div>
 			</div>
 		);
@@ -178,9 +179,9 @@ class Highlights extends React.Component {
 				<li>Shared my skincare journey with my favorite Korean Skincare blog- <a href = "https://theklog.co/skin-care-ingredients-for-smooth-skin-texture/">The Klog</a>!</li>
 				<li>Self proclaimed book worm- let’s connect on <a href ="https://www.goodreads.com/user/show/109858824-marizza-delgado">Goodreads</a>! </li> 
 				</ul>
-				</div>
 				<h2>Booking Inquiries</h2>
 				<p><a href="mailto:kristen@starsmanagement.com">kristen@starsmanagement.com</a></p>
+				</div>
 			</div>
 			</div>
 		);

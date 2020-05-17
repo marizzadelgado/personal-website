@@ -11,22 +11,23 @@
     url(./fonts/Raleway-Regular.ttf) format('truetype');
 }
 
-.body {
+body {
 	font-family: 'Raleway', sans-serif;
+	background-color: #f7f7f7;
 }
 
-.heading {
+heading {
   font-weight: 700;
 }
-.subheading {
+subheading {
   font-weight: 400;
 }
 
-.App {
+App {
   text-align: center;
 }
 
-.App-logo {
+App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,41 +37,15 @@
   display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 a {
   color: #e08a8b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .bio {
 	margin: 16px 0;
-	width: 400px;
+	width: 350px;
 	height: 400px;
-	font-size: 30px;
+	font-size: 28px;
 }
 
 .socialMedia {
@@ -102,9 +77,15 @@ a {
 
 h1, h2, p{
 	text-align: center;
+	font-weight: bold;
 }
 
 .highlights {
 	display: flex;
 	padding-top: 50px;
+}
+.funFacts {
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 16px;
 }
