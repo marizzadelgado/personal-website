@@ -36,7 +36,7 @@ App-logo {
 .logo { 
   text-align: center;
   display: block;
-  height: 70%;
+  height: 60%;
   width: 100%;
 }
 
@@ -57,8 +57,8 @@ a {
 
 .bio {
 	margin: 16px 0;
-	width: 60%;
-	font-size: 3vw;
+	width: 50%;
+	font-size: 4vw;
 }
 
 .socialMedia {
@@ -116,6 +116,7 @@ h1, h2, p{
 	margin-right: 16px;
 }
 .funFacts li {
-	width: 70%;
-	font-size: 2vw;
+	width: 90%;
+	font-size: 16px;
+	
 }

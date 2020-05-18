@@ -21,7 +21,7 @@ console.log(logo);
 
 class Header extends React.Component { 
 	render() {
-		return <img src={logo} alt="Logo" height = "70%" width= "100%" />;
+		return <img src={logo} alt="Logo" height = "60%" width= "100%" />;
 	}
 }
 
