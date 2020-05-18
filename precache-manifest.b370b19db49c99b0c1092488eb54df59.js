@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07f4672766cd40d0891b46ad1188f664",
+    "revision": "0d64560b46a4157855a639b6f338f036",
     "url": "/marizzadelgado.github.io/public/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marizzadelgado.github.io/public/static/css/2.40a775a0.chunk.css"
   },
   {
-    "revision": "cc82ee91f87ec355a00c",
-    "url": "/marizzadelgado.github.io/public/static/css/main.2e287f0a.chunk.css"
+    "revision": "6ee35353f6294ae9cae7",
+    "url": "/marizzadelgado.github.io/public/static/css/main.1e82ec09.chunk.css"
   },
   {
     "revision": "a9ae5c4ee6684ffde02c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marizzadelgado.github.io/public/static/js/2.a718b8a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc82ee91f87ec355a00c",
-    "url": "/marizzadelgado.github.io/public/static/js/main.ac2ceb53.chunk.js"
+    "revision": "6ee35353f6294ae9cae7",
+    "url": "/marizzadelgado.github.io/public/static/js/main.eb28aaad.chunk.js"
   },
   {
     "revision": "c3edd6f217859cea83dc",
