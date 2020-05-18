@@ -59,13 +59,17 @@ class Info extends React.Component {
 class Slideshow extends React.Component {
   render() {
   	const images = [
-  		{
+  		{	
 			original: 'https://i.ytimg.com/vi/ECdKH_NRS7c/maxresdefault.jpg',
-			thumbnail: 'https://static.wayup.com/company_logo/ojTomB0qG4_20150310.png'
+			thumbnail: 'https://static.wayup.com/company_logo/ojTomB0qG4_20150310.png',
+			embedUrl: 'https://www.youtube.com/embed/ECdKH_NRS7c?start=6',
+  			//renderItem: this._renderVideo.bind(this)
   		},
   		{
 			original: 'https://pbs.twimg.com/media/EEM2jNzXsAA9_mT.jpg',
 			thumbnail: 'https://brandslogo.net/wp-content/uploads/2016/01/fitbit-logo-vector-download-400x400.jpg',
+			embedUrl: 'https://www.youtube.com/embed/vDMgfWrSYn8?start=14',
+  			//renderItem: this._renderVideo.bind(this)
   		},
   		{
 			original: 'https://mediaslide-us.storage.googleapis.com/industry/pictures/1302/3678/large-1551202982-dd57fa1ed474d79a1dcca944308f0c0d.jpg',
@@ -78,6 +82,8 @@ class Slideshow extends React.Component {
   		{
 			original: 'https://www.art-for-hair-davos.ch/wp-content/uploads/2018/05/Color-Addict-Shimmer-by-LOreal-Professionnel.jpg',
 			thumbnail: 'https://cdn.worldvectorlogo.com/logos/l-oreal-professionnel.svg',
+  			embedUrl: 'https://www.youtube.com/embed/dvUd91XUCu4',
+  			//renderItem: this._renderVideo.bind(this)
   		},
   		{
 			original: 'https://images.summitmedia-digital.com/preview/images/2019/02/12/ALICEOLIVIA-nm.jpg',
@@ -86,10 +92,14 @@ class Slideshow extends React.Component {
   		{
 			original: 'https://i.ytimg.com/vi/HNinVGNGUR0/maxresdefault.jpg',
 			thumbnail: 'https://www.signedbybeauty.com/images/dr_jart_squareimage.jpg',
+  			embedUrl: 'https://www.youtube.com/embed/HNinVGNGUR0?start=17',
+  			//renderItem: this._renderVideo.bind(this)
   		},
   		{
 			original: 'https://www.fentybeauty.com/on/demandware.static/-/Sites-FENTY-Library/default/dw64098b45/pdp-content/day-to-night-model.jpg',
 			thumbnail: 'https://cdn.clipart.email/8c2d203776cd0a56e7a501d068609a74_fenty-beauty-logos_768-768.jpeg',
+  			embedUrl: 'https://www.youtube.com/embed/DjThFqGcuKI',
+  			//renderItem: this._renderVideo.bind(this)
   		},
 	];
     return (
@@ -159,9 +169,8 @@ class Highlights extends React.Component {
 			<div className = "highlightsPhoto">
 				<img src={highlights} alt="alt photo" height = "400" width= "400" />
 			</div>
-			<div className = "funFactsContainer">
-				<h1>Highlights</h1>
 				<div className = "funFacts">
+				<h1>Highlights</h1>
 				<ul>
 				<li>Vegan for 2+ years. Follow my vegan <a href ="https://www.instagram.com/healthy_ho/">food instagram</a>! #BeautyWithoutCruelty </li>
 				<li>Crowned <a href= "https://becrownedproductions.com/miss-pacific-coast">Miss Pacific Coast Teen USA 2017</a>- a preliminary for Miss California Teen USA. </li>
@@ -175,12 +184,12 @@ class Highlights extends React.Component {
 				<p><a href="mailto:kristen@starsmanagement.com">kristen@starsmanagement.com</a></p>
 				</div>
 			</div>
-			</div>
 		);
 	}
 } 
 	
 class App extends React.Component {
+	
 	render() {
 		return (  
 		<div>

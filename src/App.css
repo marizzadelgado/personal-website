@@ -57,9 +57,8 @@ a {
 
 .bio {
 	margin: 16px 0;
-	width: 350px;
-	height: 400px;
-	font-size: 28px;
+	width: 60%;
+	font-size: 3vw;
 }
 
 .socialMedia {
@@ -75,7 +74,7 @@ a {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	width : 60%;
+	width : 70%;
 }
 .agencies {
 	text-align: center;
@@ -89,11 +88,34 @@ a {
 	padding: 30px;
 }
 
+h1 {
+	font-size: 4vw;
+}
+
+h2 {
+	font-size: 3vw;
+}
+
 h1, h2, p{
+	padding-top: 10px;
 	text-align: center;
 }
 
-.highlights {
-	display: flex;
+.highlights li{
+  	margin: 0 auto;
+}
+
+.highlightsPhoto {
 	padding-top: 50px;
+	text-align: center;
+}
+
+.funFacts {
+	display-inline: block;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.funFacts li {
+	width: 70%;
+	font-size: 2vw;
 }
